@@ -341,8 +341,7 @@ function HUDDrawScoreBoard()
 				else
 					DrawTextOutlined("FAIBLE", "JcText", tx+120, (y + b - 1) + (k * 15), Color( 255, 0, 0 ), TEXT_ALIGN_CENTER, TEXT_ALIGN_LEFT, 1, Color( 0, 0, 0, 255 ) )	
 				end
-			
-				DrawTextOutlined("Points: "..v:PS_GetPoints(), "JcText", tx+220, (y + b - 1) + (k * 15), scol, TEXT_ALIGN_CENTER, TEXT_ALIGN_LEFT, 1, Color( 0, 0, 0, 255 ) )	
+				
 				DrawTextOutlined("Frags Score: " .. killstreak, "JcText", tx+345, (y + b - 1) + (k * 15), scol, TEXT_ALIGN_CENTER, TEXT_ALIGN_LEFT, 1, Color( 0, 0, 0, 255 ) )	
 				DrawTextOutlined("Score: " .. v:Frags(), "JcText", tx+445, (y + b - 1) + (k * 15), scol, TEXT_ALIGN_CENTER, TEXT_ALIGN_LEFT, 1, Color( 0, 0, 0, 255 ) )
 				DrawTextOutlined("Morts: " .. v:Deaths(), "JcText", tx+545, (y + b - 1) + (k * 15), scol, TEXT_ALIGN_CENTER, TEXT_ALIGN_LEFT, 1, Color( 0, 0, 0, 255 ) )
